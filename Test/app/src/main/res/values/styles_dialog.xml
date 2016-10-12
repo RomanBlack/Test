@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="DialogRoot">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minWidth">@dimen/dialog_minwidth</item>
+        <item name="android:minHeight">@dimen/dialog_minheight</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@drawable/dialog_background</item>
+    </style>
+
+    <style name="DialogText">
+        <item name="android:textSize">@dimen/dialog_common_text_size</item>
+        <item name="android:textColor">@color/common_text_black_secondary</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="DialogText.Margins">
+        <item name="android:layout_marginTop">@dimen/dialog_between_content_padding</item>
+        <item name="android:layout_marginLeft">@dimen/dialog_horizontal_content_padding</item>
+        <item name="android:layout_marginRight">@dimen/dialog_horizontal_content_padding</item>
+    </style>
+
+    <style name="DialogText.Margins.Last">
+        <item name="android:layout_marginBottom">@dimen/dialog_bottom_content_padding</item>
+    </style>
+
+</resources>

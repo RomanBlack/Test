@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="common_superbig_text_size">20dp</dimen>
+    <dimen name="common_big_text_size">18dp</dimen>
+    <dimen name="common_medium_text_size">16dp</dimen>
+    <dimen name="common_small_text_size">14dp</dimen>
+    <dimen name="common_supersmall_text_size">12dp</dimen>
+
+    <dimen name="common_vertical_padding">16dp</dimen>
+    <dimen name="common_vertical_padding_big">24dp</dimen>
+    <dimen name="common_vertical_padding_small">8dp</dimen>
+    <dimen name="common_horizontal_padding">16dp</dimen>
+
+    <dimen name="common_icon_size">24dp</dimen>
+    <dimen name="common_image_size">40dp</dimen>
+    <dimen name="common_image_drawable_corner_radius">20dp</dimen>
+    <dimen name="common_image_drawable_stroke_width">2dp</dimen>
+
+    <!-- Header -->
+
+    <dimen name="common_statusbar_height">0dp</dimen>
+    <dimen name="common_header_size">56dp</dimen>
+    <dimen name="common_header_text_size">@dimen/common_superbig_text_size</dimen>
+    <dimen name="common_header_text_left_margin">72dp</dimen>
+    <dimen name="common_header_button_size">48dp</dimen>
+    <dimen name="common_header_button_vertical_margin">4dp</dimen>
+    <dimen name="common_header_button_horizontal_margin">4dp</dimen>
+    <dimen name="common_header_button_between_margin">1dp</dimen>
+
+    <dimen name="common_header_extension_size">72dp</dimen>
+
+    <dimen name="common_header_extended_size">128dp</dimen>
+
+    <!-- Header ends -->
+
+    <!-- Lists -->
+
+    <dimen name="common_list_divider_height">1px</dimen>
+    <dimen name="common_list_top_padding">@dimen/common_vertical_padding_small</dimen>
+    <dimen name="common_list_item_singleline_minheight">48dp</dimen>
+    <dimen name="common_list_item_singleline_text_size">16dp</dimen>
+    <dimen name="common_list_item_twoline_minheight">72dp</dimen>
+    <dimen name="common_list_item_twoline_text_size">@dimen/common_list_item_singleline_text_size</dimen>
+    <dimen name="common_list_item_icon_size">@dimen/common_icon_size</dimen>
+    <dimen name="common_list_item_text_withimage_padding">72dp</dimen>
+    <dimen name="common_list_item_text_rigthimage_padding">56dp</dimen>
+    <dimen name="common_list_item_threeline_minheight">88dp</dimen>
+
+    <!-- Lists ends -->
+
+    <!-- Drawer -->
+
+    <dimen name="common_drawer_max_width">280dp</dimen>
+    <dimen name="common_drawer_edge_margin">@dimen/common_header_size</dimen>
+    <dimen name="common_drawer_item_text_size">14dp</dimen>
+    <dimen name="common_drawer_item_icon_size">@dimen/common_list_item_icon_size</dimen>
+
+    <!-- Drawer ends -->
+
+    <dimen name="common_flat_button_horizontal_padding">8dp</dimen>
+    <dimen name="common_flat_button_height">36dp</dimen>
+    <dimen name="common_flat_button_minwidth">64dp</dimen>
+    <dimen name="common_flat_button_text_size">@dimen/common_small_text_size</dimen>
+    <dimen name="common_flat_button_vertical_margins">8dp</dimen>
+    <dimen name="common_flat_button_margin_right">8dp</dimen>
+
+    <!-- Dialogs -->
+
+    <dimen name="dialog_background_corner_radius">1dp</dimen>
+
+    <dimen name="dialog_minwidth">280dp</dimen>
+    <dimen name="dialog_minheight">56dp</dimen>
+    <dimen name="dialog_horizontal_content_padding">24dp</dimen>
+    <dimen name="dialog_top_content_padding">20dp</dimen>
+    <dimen name="dialog_bottom_content_padding">24dp</dimen>
+    <dimen name="dialog_between_content_padding">20dp</dimen>
+
+    <dimen name="dialog_title_text_size">20dp</dimen>
+    <dimen name="dialog_common_text_size">@dimen/common_medium_text_size</dimen>
+    <dimen name="dialog_small_text_size">@dimen/common_supersmall_text_size</dimen>
+
+    <dimen name="dialog_affirmative_button_text_size">@dimen/common_flat_button_text_size</dimen> <!-- affirmative_buttons -->
+    <dimen name="dialog_affirmative_button_vertical_margins">8dp</dimen>
+    <dimen name="dialog_affirmative_button_margin_right">8dp</dimen>
+    <dimen name="dialog_affirmative_button_horizontal_padding">@dimen/common_flat_button_horizontal_padding</dimen>
+    <dimen name="dialog_affirmative_button_height">@dimen/common_flat_button_height</dimen>
+    <dimen name="dialog_affirmative_button_vertical_height">48dp</dimen>
+    <dimen name="dialog_affirmative_button_minwidth">@dimen/common_flat_button_minwidth</dimen>
+
+    <!-- Dialogs ends -->
+</resources>

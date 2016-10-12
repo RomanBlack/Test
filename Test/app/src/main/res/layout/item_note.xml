@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/CommonListSinglelineItem"
+    android:id="@+id/item_root"
+    android:background="@color/common_background">
+
+    <ImageView
+        android:id="@+id/icon"
+        style="@style/CommonListItemIcon.Relative"
+        android:src="@drawable/star_icon"/>
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/CommonListItemText.Relative.WithIcon.RightIcon"
+        tools:text="Title"/>
+
+    <ImageView
+        android:id="@+id/right"
+        style="@style/CommonListItemIcon.Right.Relative"
+        android:src="@drawable/check_icon"
+        android:background="@drawable/check_background"/>
+
+</RelativeLayout>

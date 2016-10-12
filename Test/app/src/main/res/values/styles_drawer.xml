@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="DrawerItem" parent="CommonListSinglelineItem">
+    </style>
+
+    <style name="DrawerItemIcon" parent="CommonListItemIcon">
+
+    </style>
+
+    <style name="DrawerItemText" parent="CommonListItemText.Relative">
+        <item name="android:textSize">@dimen/common_drawer_item_text_size</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+</resources>

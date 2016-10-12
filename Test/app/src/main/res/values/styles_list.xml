@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CommonListSinglelineItem" parent="CommonSinglelineItem" />
+
+    <style name="CommonListThreelineItem" parent="CommonThreelineItem"/>
+
+    <style name="CommonListItemIcon" parent="CommonItemIcon" />
+
+    <style name="CommonListItemIcon.Relative" parent="CommonItemIcon.Relative"/>
+
+    <style name="CommonListItemIcon.Right" parent="CommonItemIcon.Right"/>
+
+    <style name="CommonListItemIcon.Right.Relative" parent="CommonItemIcon.Right.Relative"/>
+
+    <style name="CommonListItemTextContainer">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="CommonListItemTextContainer.Relative">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginLeft">@dimen/common_horizontal_padding</item>
+        <item name="android:layout_marginRight">@dimen/common_horizontal_padding</item>
+    </style>
+
+    <style name="CommonListItemText" parent="CommonItemText" />
+
+    <style name="CommonListItemText.Simple">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="CommonListItemText.Relative" parent="CommonItemText.Relative" />
+
+    <style name="CommonListItemText.Relative.WithIcon" parent="CommonItemText.Relative.WithIcon" />
+
+    <style name="CommonListItemText.Relative.WithIcon.SingleLine" parent="CommonItemText.Relative.WithIcon.SingleLine" />
+
+    <style name="CommonListItemText.Relative.WithIcon.RightIcon" parent="CommonItemText.Relative.WithIcon.RightIcon" />
+
+    <style name="CommonListItemText.Secondary" parent="CommonItemText.Secondary"/>
+
+    <style name="CommonListItemText.Secondary.Threeline">
+        <item name="android:lines">2</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="CommonListItemText.Secondary.Threeline.Simple">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+</resources>

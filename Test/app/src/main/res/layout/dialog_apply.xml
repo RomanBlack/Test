@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/DialogRoot">
+
+    <TextView
+        android:id="@+id/edit"
+        style="@style/DialogText.Margins.Last"
+        android:text="@string/dialog_save_item_question"/>
+
+    <LinearLayout
+        style="@style/BottomButtonsContainer">
+
+        <TextView
+            android:id="@+id/cancel"
+            style="@style/CommonFlatButton.Linear"
+            android:text="@string/cancel"/>
+
+        <TextView
+            android:id="@+id/ok"
+            style="@style/CommonFlatButton.Linear"
+            android:text="@string/ok"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_background">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/list_item"
+                style="@style/DrawerItem">
+
+                <TextView
+                    style="@style/DrawerItemText"
+                    android:text="@string/list"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/scaling_item"
+                style="@style/DrawerItem">
+
+                <TextView
+                    style="@style/DrawerItemText"
+                    android:text="@string/scaling"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/service_item"
+                style="@style/DrawerItem">
+
+                <TextView
+                    style="@style/DrawerItemText"
+                    android:text="@string/service"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/map_item"
+                style="@style/DrawerItem">
+
+                <TextView
+                    style="@style/DrawerItemText"
+                    android:text="@string/map"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CommonSinglelineItem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">@dimen/common_list_item_singleline_minheight</item>
+    </style>
+
+    <style name="CommonThreelineItem" parent="CommonSinglelineItem">
+        <item name="android:minHeight">@dimen/common_list_item_threeline_minheight</item>
+    </style>
+
+    <style name="CommonItemIcon">
+        <item name="android:layout_height">@dimen/common_icon_size</item>
+        <item name="android:layout_width">@dimen/common_icon_size</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+
+    <style name="CommonItemIcon.Relative">
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginLeft">@dimen/common_horizontal_padding</item>
+    </style>
+
+    <style name="CommonItemIcon.Right">
+
+    </style>
+
+    <style name="CommonItemIcon.Right.Relative">
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginLeft">@dimen/common_horizontal_padding</item>
+        <item name="android:layout_marginRight">@dimen/common_horizontal_padding</item>
+    </style>
+
+    <style name="CommonItemText">
+        <item name="android:textSize">@dimen/common_list_item_singleline_text_size</item>
+        <item name="android:textColor">@color/common_text_black</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="CommonItemText.Relative">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginLeft">@dimen/common_horizontal_padding</item>
+        <item name="android:layout_marginRight">@dimen/common_horizontal_padding</item>
+    </style>
+
+    <style name="CommonItemText.Relative.WithIcon">
+        <item name="android:layout_marginLeft">@dimen/common_list_item_text_withimage_padding</item>
+    </style>
+
+    <style name="CommonItemText.Relative.WithIcon.SingleLine">
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="CommonItemText.Relative.WithIcon.RightIcon">
+        <item name="android:layout_marginRight">@dimen/common_list_item_text_rigthimage_padding
+        </item>
+    </style>
+
+    <style name="CommonItemText.Secondary">
+        <item name="android:textColor">@color/common_text_black_secondary</item>
+        <item name="android:singleLine">false</item>
+    </style>
+
+    <style name="CommonItemText.Secondary.SingleLine">
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="CommonItemText.Secondary.SingleLine.Relative">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginLeft">@dimen/common_horizontal_padding</item>
+        <item name="android:layout_marginRight">@dimen/common_horizontal_padding</item>
+    </style>
+
+
+
+    <style name="BottomButtonsContainer">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">right</item>
+    </style>
+
+    <style name="CommonFlatButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/common_flat_button_height</item>
+        <item name="android:minWidth">@dimen/common_flat_button_minwidth</item>
+        <item name="android:paddingLeft">@dimen/common_flat_button_horizontal_padding</item>
+        <item name="android:paddingRight">@dimen/common_flat_button_horizontal_padding</item>
+        <item name="android:background">@drawable/flat_button_background</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/common_flat_button_text_size</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="CommonFlatButton.Linear">
+        <item name="android:layout_marginRight">@dimen/common_flat_button_margin_right</item>
+        <item name="android:layout_marginTop">
+            @dimen/common_flat_button_vertical_margins
+        </item>
+        <item name="android:layout_marginBottom">
+            @dimen/common_flat_button_vertical_margins
+        </item>
+    </style>
+</resources>

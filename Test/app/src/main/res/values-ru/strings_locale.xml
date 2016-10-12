@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="latitude_label">Широта:</string>
+    <string name="longitude_label">Долгота:</string>
+
+    <string name="title_hint">Заголовок</string>
+
+    <string name="add">Добавить</string>
+    <string name="edit">Редактировать</string>
+    <string name="delete">Удалить</string>
+
+    <string name="done">Готово</string>
+    <string name="revert">Отмена</string>
+
+    <string name="title_empty">Заголовок пустой</string>
+
+    <string name="dialog_save_item_question">Заголовок был отредактирован. Сохранить изменения?</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Отмена</string>
+
+    <string name="locale">En</string>
+
+    <string name="alert_no_internet">Нет подключения к интернету</string>
+
+    <string name="no_anything">Ничего нет</string>
+
+</resources>

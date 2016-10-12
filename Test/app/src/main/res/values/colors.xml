@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="common_background">#fafafa</color>
+    <color name="common_dialog_background">#ffffff</color>
+
+    <color name="common_text_black">#de000000</color>
+    <color name="common_text_black_secondary">#8a000000</color>
+    <color name="common_text_black_disabled">#61000000</color>
+
+    <color name="common_text_white">#ffffff</color>
+    <color name="common_text_white_secondary">#b3ffffff</color>
+    <color name="common_text_white_disabled">#80ffffff</color>
+
+    <color name="button_background_normal">#61000000</color>
+    <color name="button_background_pressed">#8a000000</color>
+
+    <color name="common_button_overlay_light">#33ffffff</color>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="latitude_label">Latitude:</string>
+    <string name="longitude_label">Longitude:</string>
+
+    <string name="title_hint">Title</string>
+
+    <string name="add">Add</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+
+    <string name="done">Done</string>
+    <string name="revert">Revert</string>
+
+    <string name="title_empty">The title is empty</string>
+
+    <string name="dialog_save_item_question">The title was edited. Do you wish to save the changes?</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="locale">Ru</string>
+
+    <string name="alert_no_internet">No internet connection</string>
+
+    <string name="no_anything">Nothing to show</string>
+
+</resources>

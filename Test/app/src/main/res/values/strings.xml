@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Test</string>
+    
+    <string name="list">List</string>
+    <string name="scaling">Scaling</string>
+    <string name="service">Service</string>
+    <string name="map">Map</string>
+</resources>
